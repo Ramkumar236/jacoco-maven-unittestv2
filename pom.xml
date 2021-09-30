@@ -26,8 +26,8 @@
     <version>0.8.7</version>
     <configuration>
         <skip>${maven.test.skip}</skip>
-        <destFile>${basedir}/target/coverage-reports/jacoco-unit.exec</destFile>
-        <dataFile>${basedir}/target/coverage-reports/jacoco-unit.exec</dataFile>
+        <destFile>/target/coverage-reports/jacoco-unit.exec</destFile>
+        <dataFile>/target/coverage-reports/jacoco-unit.exec</dataFile>
         <output>file</output>
         <append>true</append>
         <excludes>
